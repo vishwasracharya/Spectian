@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--            Title-SPCE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/vampire_black"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:padding="@dimen/text_margin"
+                android:text="Sardar Patel College Of Engineering"
+                android:textColor="@color/snow"
+                android:textSize="@dimen/title_size"/>
+
+            <!--            Descriprion-SPCE-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="@dimen/text_size01"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/college_vision"
+                    android:textSize="@dimen/text_size0"
+                    android:textColor="@color/vampire_black"
+                    android:fontFamily="sans-serif"
+                    android:background="@color/purple_200"
+                    android:padding="@dimen/text_size01"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vision"
+                    android:gravity="center"
+                    android:background="@color/royal_blue"
+                    android:textColor="@color/vampire_black"
+                    android:padding="5dp"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="sans-serif-black"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/college_mission"
+                    android:textSize="@dimen/text_size0"
+                    android:textColor="@color/vampire_black"
+                    android:fontFamily="sans-serif"
+                    android:background="@color/purple_200"
+                    android:padding="@dimen/text_size01"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mission"
+                    android:gravity="center"
+                    android:background="@color/royal_blue"
+                    android:textColor="@color/vampire_black"
+                    android:padding="5dp"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="sans-serif-black"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!--            Contact-Detail-Layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin"
+                android:background="@color/white">
+
+                <!--                Title-Contact-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_marginTop="10dp"
+                    android:textSize="@dimen/title_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+
+                <!--                Info-head-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/college_name"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"/>
+
+                <!--                Info-area-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/college_address"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"/>
+
+                <!--                Info-number-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/college_mobile"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"/>
+
+
+                <!--                Info-Location-->
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/location"/>
+
+            </LinearLayout>
+
+            <!--            Developers-Layout-->
+                <include layout="@layout/developer_info"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

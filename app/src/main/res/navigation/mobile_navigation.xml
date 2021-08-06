@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.spce.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.spce.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <activity
+        android:id="@+id/nav_book"
+        android:name="com.example.spce.ui.ebook.EbookActivity"
+        android:label="@string/menu_book"
+        tools:layout="@layout/activity_ebook"/>
+
+    <fragment
+        android:id="@+id/nav_assignment"
+        android:name="com.example.spce.ui.assignment.Assignment"
+        android:label="@string/menu_assignment"
+        tools:layout="@layout/assignment_fragment" />
+
+    <fragment
+        android:id="@+id/nav_faculty"
+        android:name="com.example.spce.ui.faculty.Faculty"
+        android:label="@string/menu_faculty"
+        tools:layout="@layout/faculty_fragment" />
+
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.example.spce.ui.notice.Notice"
+        android:label="@string/menu_notice"
+        tools:layout="@layout/notice_fragment" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.spce.ui.about.About"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment" />
+
+
+</navigation>
