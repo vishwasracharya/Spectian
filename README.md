@@ -3,6 +3,9 @@
 
     
 # SPECTIAN
+<a href="https://github.com/vishwasracharya/Spectian/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/vishwasracharya/Spectian?color=informational"></a>
+<a href="https://github.com/vishwasracharya/Spectian/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/vishwasracharya/Spectian?color=orange"></a>
+<a href="https://github.com/vishwasracharya/Spectian/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/vishwasracharya/Spectian?color=success"></a>
 
 This is an android application for our college students, so that they can access some sort of material and information from this application itself.
 
