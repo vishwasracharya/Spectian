@@ -31,10 +31,18 @@ This is an android application for our college students, so that they can access
 
 **Database:** Firebase
 
-  
-# Hi, I'm Vishwas Acharya! 👋
+## How to use it?
+- `Clone` this repo into your system using 
+```
+git clone https://github.com/vishwasracharya/Spectian.git
+```
+- Open in Android Studio
+- Install the recommended gradle when asked
+- Select an emulator/Connect your Phone with `USB Debugging` `ON`
+- Now Click on Run
+- Then Application will automatically get `build` and `launch` itself.
 
-  
+# Hi, I'm Vishwas Acharya! 👋
 I'm a about to complete my Bachelor's of I.T Engineering, and also as a side hustule make You-Tube videos, Podcast, Blogs and more...
 
 ### Connect with me
