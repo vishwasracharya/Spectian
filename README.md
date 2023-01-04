@@ -12,7 +12,7 @@ This is an android application for our college students, so that they can access
 
 ## Features
 
-- Light/dark mode
+- Light & dark mode
 - College Notice Updates
 - Online access to college materials
 
